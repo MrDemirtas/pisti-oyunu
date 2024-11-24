@@ -193,13 +193,13 @@ button:hover {
 }
 
 .computerScore {
-  top: 10%;
+  top: 0;
   left: 48px;
   color: red;
 }
 
 .playerScore {
-  bottom: 10%;
+  bottom: 0;
   left: 48px;
   color: green;
 }
@@ -302,11 +302,11 @@ button:hover {
   }
 
   .computerScore {
-    top: 30%;
+    top: 35%;
   }
 
   .playerScore {
-    bottom: 30%;
+    bottom: 35%;
   }
 
   .statusMsg {
