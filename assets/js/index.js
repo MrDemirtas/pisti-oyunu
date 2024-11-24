@@ -164,8 +164,7 @@ const computerPlayed = () => {
 
     let computerCardDiv = document.querySelectorAll(".computer-area .iskambil-card-bg");
     computerCardDiv.length != 0 ? computerCardDiv[0].remove() : "";
-    computerCards.splice(computerSelectCard[computerSelectCardIndex], 1);
-
+    computerCards.splice(computerSelectCardIndex, 1);
     gameController(computerSelectCard, (status) => {
       gameAreaCards.push(computerSelectCard);
       if (status) {
